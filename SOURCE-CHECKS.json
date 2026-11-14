@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "license": "MIT (original code/build scripts)",
+  "swiftChecksPassed": 115,
+  "pythonGeometryCheckGroupsPassed": 2,
+  "nativeSourceBuild": "passed",
+  "coreMLCompilerHelper": "compiled an existing Depth Anything V2 Small F16 package successfully",
+  "modelDownloads": "Pinned metadata/setup scripts included; large downloads not repeated during validation",
+  "mp4EncodeDecode": "not tested: system encoder unavailable in tool environment",
+  "creatorArtworkAndBranding": "not included or relicensed",
+  "publishedToRemoteRepository": false
+}
