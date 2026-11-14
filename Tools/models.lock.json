@@ -1,0 +1,40 @@
+[
+  {
+    "repository": "apple/coreml-depth-anything-v2-small",
+    "revision": "cfef6f6f2a70783dedc0bfae40cecbc2052285d3",
+    "destination": "Models",
+    "include": [
+      "DepthAnythingV2SmallF16.mlpackage/**"
+    ],
+    "license": "Apache-2.0"
+  },
+  {
+    "repository": "apple/coreml-sam2.1-baseplus",
+    "revision": "e35bf3be34b401a1ac31d2bbe41b1d57bdfeba81",
+    "destination": "Models/SAM2BasePlus",
+    "include": [
+      "SAM2_1BasePlus*FLOAT16.mlpackage/**"
+    ],
+    "license": "Apache-2.0"
+  },
+  {
+    "repository": "apple/coreml-sam2.1-tiny",
+    "revision": "39ae0a8a83e5e6cd196e804bf7cccc5f8171f306",
+    "destination": "Models/SAM2",
+    "include": [
+      "SAM2_1TinyPromptEncoderFLOAT16.mlpackage/**",
+      "SAM2_1TinyMaskDecoderFLOAT16.mlpackage/**"
+    ],
+    "license": "Apache-2.0"
+  },
+  {
+    "repository": "Ruicheng/moge-2-vitb-normal-onnx",
+    "revision": "2d247a122ada42ce700fe59273cd62e076da1f32",
+    "destination": "Models/MoGe2Base",
+    "include": [
+      "model.onnx"
+    ],
+    "license": "MIT (base model); upstream notices apply",
+    "sha256": "bbf14e07a30f11e69d36ab861590123f5598ababcbc8946a063eb4a966f35a21"
+  }
+]
